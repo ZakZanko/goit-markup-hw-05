@@ -18,6 +18,10 @@
       referrerpolicy="no-referrer"
     />
     <link rel="stylesheet" href="./css/style.css" />
+    <link
+    rel="stylesheet"
+    href="https://cdnjs.cloudflare.com/ajax/libs/animate.css/4.1.1/animate.min.css"
+  />
     <title class="head-title">WebStudio</title>
   </head>
   <body>
@@ -73,7 +77,7 @@
       <section class="header-hero section">
         <div class="container container-hero">
           <h1 class="caption">Эффективные решения для вашего бизнеса</h1>
-          <button type="button" class="btn data-modal-open">Заказать услугу</button>
+          <button type="button" class="btn" data-modal-open>Заказать услугу</button>
         </div>
       </section>
       <section class="main-text section">
@@ -527,10 +531,12 @@
         </div>
       </div>
     </footer>
-    <div class="backdrop is-hidden" data-modal>
+    <div class="backdrop is-hidden animate__animated animate__heartBeat animate__delay-2s" data-modal>
       <div class="modal">
         <p></p>
-        <button type="button" data-modal-close>X</button>
+        <button type="button" class="modal-close" data-modal-close><svg class="modal-close-icon" width="18px" height="18px">
+          <use href="./img/icon.svg#icon-close"></use>
+        </svg></button>
       </div>
     </div>
 
