@@ -89,15 +89,12 @@ body {
   padding-top: 32px;
   padding-bottom: 32px;
   position: relative;
-  transition: color 500ms cubic-bezier(0.4, 0, 0.2, 1);
-  /* transition-duration: 500ms;
-  transition-timing-function: cubic-bezier(0.4, 0, 0.2, 1); */
+  transition: color 250ms cubic-bezier(0.4, 0, 0.2, 1);
 }
 .nav-link:hover,
 .nav-link:focus {
   color: var(--first-text-color);
 }
-.nav-link:hover::after,
 .nav-link:focus::after {
   content: "";
   position: absolute;
@@ -132,8 +129,7 @@ body {
   color: var(--second-text-color);
   text-decoration: none;
   letter-spacing: 0.02em;
-  transition-duration: 250ms;
-  transition-timing-function: cubic-bezier(0.4, 0, 0.2, 1);
+  transition: color 250ms cubic-bezier(0.4, 0, 0.2, 1);
 }
 .header-tel {
   display: flex;
@@ -145,8 +141,7 @@ body {
   color: var(--second-text-color);
   text-decoration: none;
   letter-spacing: 0.02em;
-  transition-duration: 250ms;
-  transition-timing-function: cubic-bezier(0.4, 0, 0.2, 1);
+  transition: color 250ms cubic-bezier(0.4, 0, 0.2, 1);
 }
 .header-mail {
   list-style-type: none;
@@ -218,12 +213,11 @@ body {
   letter-spacing: 0.06em;
   width: 200px;
   height: 50px;
-  transition-duration: 250ms;
-  transition-timing-function: cubic-bezier(0.4, 0, 0.2, 1);
+  transition: background-color 250ms cubic-bezier(0.4, 0, 0.2, 1);
 }
 .btn:hover,
 .btn:focus {
-  background: #188ce8;
+  background-color: #188ce8;
 }
 
 .main-text {
@@ -376,8 +370,8 @@ body {
   align-items: center;
   background-color: #ffffff;
   color: #afb1b8;
-  transition-duration: 250ms;
-  transition-timing-function: cubic-bezier(0.4, 0, 0.2, 1);
+  transition: background-color 250ms cubic-bezier(0.4, 0, 0.2, 1),
+    color 250ms cubic-bezier(0.4, 0, 0.2, 1);
 }
 .team-soc-link:hover,
 .team-soc-link:focus {
@@ -412,15 +406,13 @@ body {
 }
 .clients-icon {
   fill: currentColor;
-  transition-duration: 250ms;
-  transition-timing-function: cubic-bezier(0.4, 0, 0.2, 1);
+  transition: color 250ms cubic-bezier(0.4, 0, 0.2, 1);
 }
 
 .clients-iteam {
   border: 1px solid #afb1b8;
   border-radius: 4px;
-  transition-duration: 250ms;
-  transition-timing-function: cubic-bezier(0.4, 0, 0.2, 1);
+  transition: border 250ms cubic-bezier(0.4, 0, 0.2, 1);
 }
 .clients-iteam:hover,
 .clients-iteam:focus {
@@ -433,8 +425,7 @@ body {
   color: #afb1b8;
   width: 170px;
   height: 92px;
-  transition-duration: 250ms;
-  transition-timing-function: cubic-bezier(0.4, 0, 0.2, 1);
+  transition: color 250ms cubic-bezier(0.4, 0, 0.2, 1);
 }
 .clients-link:hover,
 .clients-link:focus {
@@ -478,8 +469,7 @@ body {
   color: var(--thirst-text-color);
   text-decoration: none;
   letter-spacing: 0.03em;
-  transition-duration: 250ms;
-  transition-timing-function: cubic-bezier(0.4, 0, 0.2, 1);
+  transition: color 250ms cubic-bezier(0.4, 0, 0.2, 1);
 }
 .footer-mail {
   font-style: normal;
@@ -488,8 +478,7 @@ body {
   color: rgba(255, 255, 255, 0.6);
   text-decoration: none;
   letter-spacing: 0.03em;
-  transition-duration: 250ms;
-  transition-timing-function: cubic-bezier(0.4, 0, 0.2, 1);
+  transition: color 250ms cubic-bezier(0.4, 0, 0.2, 1);
 }
 .footer-tel {
   font-style: normal;
@@ -498,8 +487,7 @@ body {
   color: rgba(255, 255, 255, 0.6);
   text-decoration: none;
   letter-spacing: 0.03em;
-  transition-duration: 250ms;
-  transition-timing-function: cubic-bezier(0.4, 0, 0.2, 1);
+  transition: color 250ms cubic-bezier(0.4, 0, 0.2, 1);
 }
 .footer-container {
   display: flex;
@@ -547,8 +535,7 @@ body {
   align-items: center;
   color: #ffffff;
   background-color: rgba(255, 255, 255, 0.1);
-  transition-duration: 250ms;
-  transition-timing-function: cubic-bezier(0.4, 0, 0.2, 1);
+  transition: background-color 250ms cubic-bezier(0.4, 0, 0.2, 1);
 }
 .footer-link-icon:hover,
 .footer-link-icon:focus {
@@ -566,8 +553,9 @@ body {
   border: 0;
   cursor: pointer;
   padding: 6px 22px;
-  transition-duration: 250ms;
-  transition-timing-function: cubic-bezier(0.4, 0, 0.2, 1);
+  transition: background-color 250ms cubic-bezier(0.4, 0, 0.2, 1),
+    color 250ms cubic-bezier(0.4, 0, 0.2, 1),
+    box-shadow 250ms cubic-bezier(0.4, 0, 0.2, 1);
 }
 .portfolio-btn:hover,
 .portfolio-btn:focus {
@@ -595,8 +583,7 @@ body {
   line-height: 1.62;
   color: var(--first-background-color);
   letter-spacing: 0.03em;
-  transition-duration: 250ms;
-  transition-timing-function: cubic-bezier(0.4, 0, 0.2, 1);
+  transition: background-color 250ms cubic-bezier(0.4, 0, 0.2, 1);
 }
 .portfolio-nav-item:hover {
   background-color: var(--thirst-text-color);
@@ -616,9 +603,7 @@ body {
 .portfolio-link-item {
   display: block;
   background: transparent;
-  transition-property: background-color, transform;
-  transition-duration: 250ms;
-  transition-timing-function: cubic-bezier(0.4, 0, 0.2, 1);
+  transition: box-shadow 250ms cubic-bezier(0.4, 0, 0.2, 1);
 }
 .portfolio-link-item:hover,
 .portfolio-link-item:focus {
@@ -642,7 +627,6 @@ body {
   transform: translateY(101%);
   transition: transform 250ms cubic-bezier(0.4, 0, 0.2, 1);
   z-index: 2;
-  transition-duration: 250ms;
   color: var(--thirst-text-color);
   font-style: normal;
   font-weight: 400;
@@ -712,43 +696,43 @@ img {
   height: auto;
 }
 /* Modal */
-.backdrop{
+.backdrop {
   position: fixed;
   top: 0;
   background-color: rgba(0, 0, 0, 0.2);
   width: 100vw;
   height: 100vh;
-  transition: opacity 300ms cubic-bezier(0.4, 0, 0.2, 1), visibility 300ms cubic-bezier(0.4, 0, 0.2, 1);
+  transition: opacity 300ms cubic-bezier(0.4, 0, 0.2, 1),
+    visibility 300ms cubic-bezier(0.4, 0, 0.2, 1);
 }
-.backdrop.is-hidden .modal{
+.backdrop.is-hidden .modal {
   transform: translate(-50%, -50%);
-
 }
-.modal{
-background-color: #ffffff;
-border-radius: 5px;
-width: 528px;
-min-height: 581px;
-position: absolute;
-top: 50%;
-left: 50%;
-transform: translate(-50%,-50%) scale(1);
-transition: transform 300ms cubic-bezier(0.4, 0, 0.2, 1);
+.modal {
+  background-color: #ffffff;
+  border-radius: 5px;
+  width: 528px;
+  min-height: 581px;
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%) scale(1);
+  transition: transform 300ms cubic-bezier(0.4, 0, 0.2, 1);
 }
-.modal-close{
+.modal-close {
   display: flex;
   align-items: center;
   position: absolute;
   width: 30px;
-  height: 30px; 
+  height: 30px;
   border: 1px solid #999999;
   border-radius: 50%;
   top: 8px;
   right: 8px;
-  background-color:transparent;
+  background-color: transparent;
 }
-.is-hidden{
-opacity: 0;
-visibility: hidden;
-pointer-events: none;
+.is-hidden {
+  opacity: 0;
+  visibility: hidden;
+  pointer-events: none;
 }
